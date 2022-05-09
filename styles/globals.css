@@ -4,6 +4,15 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+      /* The image used */
+  background: none;
+  background-image: url("pagebg.png");
+  /* Full height */
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a {
@@ -13,4 +22,8 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.css-fr2159[aria-current=step] {
+  background-color: #c7201e;
 }
