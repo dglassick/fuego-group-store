@@ -7,7 +7,7 @@ import Link from 'next/link';
 import { GoLocation } from 'react-icons/go';
 import { assets } from '../constants/assets';
 
-const Invite: NextPage = () => {
+const Home: NextPage = () => {
   return (
     <Box className={styles.container}>
       <Head>
@@ -32,6 +32,7 @@ const Invite: NextPage = () => {
           }}
         >
           <Box className={styles.imageBox}>
+            <span className={styles.circle}></span>
             <Box
               style={{
                 position: 'absolute',
@@ -41,6 +42,7 @@ const Invite: NextPage = () => {
                 flex: 1
               }}
             >
+              
               <Text
                 style={{
                   fontSize: '30px',
@@ -119,4 +121,4 @@ const Invite: NextPage = () => {
   );
 };
 
-export default Invite;
+export default Home;

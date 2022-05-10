@@ -30,7 +30,22 @@
   padding-left: 15px;
   display: flex;
   width: 100%;
+  overflow: hidden;
 }
+
+/* .imageBox:after{
+  content:'';
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  background:rgba(0,0,0,0);
+  position:absolute;
+  top:-100px;
+  left:-40px;
+  border:40px solid rgba(0,0,0,0.5);
+} */
 
 .matchTitle {
   -webkit-text-stroke: 1px #979797;

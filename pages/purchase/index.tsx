@@ -267,7 +267,7 @@ const Purchase: NextPage = () => {
       description: 'Payment',
       content: (
         <Box display={'flex'} width={'100%'}>
-          <Stack p='4' boxShadow='lg' m='4' borderRadius='md' width={'100%'}>
+          <Stack p='4' m='4' borderRadius='md' width={'100%'}>
             <Stack direction={{ base: 'column', md: 'row' }} justifyContent='space-between'>
               <Box display={'flex'} flexDirection={'column'} alignContent={'center'} alignItems='center'>
                 <Heading fontSize={'3xl'} p={3}>Thank you for your purchase! Share your upcoming event!</Heading>
